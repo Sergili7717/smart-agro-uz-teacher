@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Century Gothic Bold';
-  src: url('./fonts/centurygothic_bold.woff');
+  font-family: "Century Gothic Bold";
+  src: url("./fonts/centurygothic_bold.woff");
 }
 
 @font-face {
-  font-family: 'Century Gothic';
-  src: url('./fonts/centurygothic.woff');
+  font-family: "Century Gothic";
+  src: url("./fonts/centurygothic.woff");
 }
 
 @font-face {
   font-family: Johnstown;
-  src: url('./fonts/johnstowndemo.woff');
+  src: url("./fonts/johnstowndemo.woff");
 }
 
 @font-face {
   font-family: Mistral;
-  src: url('./fonts/mistralnormal.woff');
+  src: url("./fonts/mistralnormal.woff");
 }
 
 * {
@@ -30,13 +30,13 @@ a {
 }
 
 body {
-  font-family: 'Century Gothic';
-  background-color: #334B35;
-  color: #FFFFFF;
+  font-family: "Century Gothic";
+  background-color: #334b35;
+  color: #ffffff;
 }
 
 header {
-  background-color: #334B35;
+  background-color: #334b35;
   height: clamp(70px, 7.48vw, 110px);
   display: flex;
   align-items: center;
@@ -65,7 +65,6 @@ header {
       &:hover {
         font-weight: 600;
       }
-
     }
 
     @media (max-width: 930px) {
@@ -88,12 +87,12 @@ header {
     width: 100%;
     height: 2px;
     display: inline-block;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   &::after,
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
   }
@@ -116,10 +115,10 @@ header {
 }
 
 .nav-link::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
-  background-color: #F7C35F;
+  background-color: #f7c35f;
   display: inline-block;
   position: absolute;
   bottom: 0;
@@ -135,7 +134,7 @@ header {
 
 .hero {
   height: calc(100dvh - clamp(70px, 7.48vw, 110px));
-  background-image: url('./images/img/hero-bg.jpg');
+  background-image: url("./images/img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -147,16 +146,16 @@ header {
     & h1 {
       font-weight: bold;
       font-size: clamp(16px, 1.7vw, 25px);
-      color: #FFFFFF;
+      color: #ffffff;
       width: fit-content;
       position: relative;
 
       &::after {
-        content: '';
+        content: "";
         width: 100%;
         aspect-ratio: 215/10.2;
         display: inline-block;
-        background-image: url('./images/icons/Vector.png');
+        background-image: url("./images/icons/Vector.png");
         background-repeat: no-repeat;
         background-size: 100%;
         position: absolute;
@@ -167,18 +166,18 @@ header {
 
     & h2 {
       font-family: Livvic;
-      color: #F7C35F;
+      color: #f7c35f;
       font-weight: bold;
       font-size: clamp(36px, 4.76vw, 70px);
       position: relative;
       width: fit-content;
 
       &::after {
-        content: '';
+        content: "";
         width: 10.27%;
         aspect-ratio: 75/62;
         display: inline-block;
-        background-image: url('./images/icons/image\ 5.png');
+        background-image: url("./images/icons/image\ 5.png");
         background-repeat: no-repeat;
         background-size: 100%;
         position: absolute;
@@ -189,14 +188,14 @@ header {
 
     & h3 {
       font-family: Livvic;
-      color: #FFFFFF;
+      color: #ffffff;
       font-weight: bold;
       font-size: clamp(36px, 4.76vw, 70px);
     }
 
     & p {
       font-size: 20px;
-      color: #FFFFFF;
+      color: #ffffff;
       font-weight: normal;
       margin: 33px 0 49px;
     }
@@ -206,8 +205,8 @@ header {
       padding: clamp(10px, 1.7vw, 25px) clamp(15px, 3.4vw, 50px);
       font-family: Livvic;
       font-size: 15px;
-      color: #1A1A1A;
-      background-color: #F7C35F;
+      color: #1a1a1a;
+      background-color: #f7c35f;
       border-radius: 20px;
       text-transform: uppercase;
     }
@@ -220,7 +219,6 @@ header {
   justify-content: flex-start;
   height: 100%;
 }
-
 
 /* intro */
 .intro {
@@ -247,16 +245,16 @@ header {
   }
 
   & h3 {
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-size: clamp(30px, 3.74vw, 55px);
     font-weight: bold;
     margin-bottom: 50px;
   }
 
   & h4 {
-    color: #F7C35F;
+    color: #f7c35f;
     font-size: 30px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     margin-bottom: 20px;
   }
 
@@ -270,7 +268,7 @@ header {
     flex-direction: column;
     gap: 20px;
     list-style: none;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     font-size: 20px;
 
     & li {
@@ -279,11 +277,11 @@ header {
     }
 
     & li::before {
-      content: '';
+      content: "";
       width: 20px;
       height: 20px;
       display: inline-block;
-      background-image: url('./images/icons/checked-icon.svg');
+      background-image: url("./images/icons/checked-icon.svg");
       background-size: contain;
       background-repeat: no-repeat;
       margin-right: 22px;
@@ -303,11 +301,11 @@ header {
   }
 
   &::before {
-    content: '';
+    content: "";
     width: 658px;
     height: 497px;
     display: inline-block;
-    background-color: #263C28;
+    background-color: #263c28;
     position: absolute;
     top: -100px;
     right: 146px;
@@ -329,7 +327,7 @@ header {
   position: relative;
   z-index: 2;
   display: flex;
-  background-color: #6D8C54;
+  background-color: #6d8c54;
   padding: clamp(10px, 2.17vw, 32px) clamp(15px, 2.38vw, 35px);
   border-radius: 10px;
   max-width: 428px;
@@ -347,7 +345,7 @@ header {
 }
 
 .video {
-  background-image: url('./images/img/VIDEO-BG.jpg');
+  background-image: url("./images/img/VIDEO-BG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -373,7 +371,6 @@ header {
       font-weight: bold;
       max-width: 609px;
       width: 100%;
-
     }
 
     & a {
@@ -395,7 +392,7 @@ header {
       }
 
       &::after {
-        content: '';
+        content: "";
         width: 80px;
         height: 80px;
         background-color: #fff;
@@ -409,10 +406,10 @@ header {
       }
 
       &::before {
-        content: 'Watch the video';
+        content: "Watch the video";
         display: inline-block;
         width: 170px;
-        color: #F7C35F;
+        color: #f7c35f;
         font-size: 30px;
         font-family: Johnstown;
         position: absolute;
@@ -436,7 +433,7 @@ header {
   }
 
   50% {
-    background-color: #F7C35F;
+    background-color: #f7c35f;
     width: 100%;
     height: 100%;
   }
@@ -447,23 +444,23 @@ header {
   }
 }
 
-.popular{
-  margin: clamp(40px, 13.60vw, 200px) 0 ;
+.popular {
+  margin: clamp(40px, 13.6vw, 200px) 0;
   text-align: center;
-  h2{
+  h2 {
     font-size: 20px;
   }
-  h3{
+  h3 {
     font-size: 50px;
-    font-family: 'Livvic';
+    font-family: "Livvic";
     margin: 20px 0 100px;
   }
-  .popular-items{
+  .popular-items {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    .popular-item{
+    .popular-item {
       width: 183px;
       height: 177px;
       background-color: #d9d9d910;
@@ -476,12 +473,12 @@ header {
     }
   }
 }
-.products{
+.products {
   position: relative;
   text-align: center;
   margin-bottom: 200px;
   padding: 118px 0 160px;
-  &>img{
+  & > img {
     position: absolute;
     width: 100%;
     height: fit-content;
@@ -490,19 +487,19 @@ header {
     left: 0;
     display: block;
   }
-  & h2{
+  & h2 {
     font-size: 20px;
   }
-  & h3{
-    font-family: 'Livvic';
+  & h3 {
+    font-family: "Livvic";
     font-weight: bold;
     font-size: 50px;
     margin: 20px 0 80px;
   }
-  .products-wrap{
+  .products-wrap {
     display: flex;
     gap: 56px;
-    .products-item{
+    .products-item {
       overflow: hidden;
       border-radius: 10px;
       width: 318px;
@@ -511,12 +508,12 @@ header {
       transition: 0.5s;
       position: relative;
       border: 1px solid transparent;
-      & img{
+      & img {
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
-      .products-item-content{
+      .products-item-content {
         background-color: #263c28bb;
         width: 100%;
         text-align: left;
@@ -526,22 +523,22 @@ header {
         bottom: -77px;
         padding: 20px 25px;
         transition: 0.5s;
-        & h4{
+        & h4 {
           font-size: 12px;
           font-weight: bold;
-          color: #F7C35F;
+          color: #f7c35f;
         }
-        & p{
-          font-family: 'Livvic';
+        & p {
+          font-family: "Livvic";
           font-size: 18px;
           font-weight: 600;
         }
       }
-      &:hover{
+      &:hover {
         bottom: 20px;
-        border: 1px solid #F7C35F;
+        border: 1px solid #f7c35f;
         box-shadow: 0 5px 25px 0 rgba(247, 195, 95, 0.3);
-        .products-item-content{
+        .products-item-content {
           bottom: 0;
         }
       }
@@ -549,39 +546,127 @@ header {
   }
 }
 
-.agricult{
-
+.agricult {
+  position: relative;
 }
-
-.agricult-text{
+.agricult-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.agricult-left {
+  background-image: url("./images/img/agricult-left-bg.jpg");
+  width: 43.8%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.agricult-right {
+  flex-grow: 1;
+  background-color: #6d8c54;
+  position: relative;
+  & img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.agricult-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+.agricult-text {
   padding: 80px 0;
-  & h2{
+  width: 730px;
+  & h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  & h3{
-    font-family: 'Livvic';
+  & h3 {
+    font-family: "Livvic";
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 67px;
   }
-  & ul{
+  & ul {
     list-style: none;
   }
-  & li{
-    & h4{
-      font-family: 'Livvic';
+  & li {
+    position: relative;
+    padding-left: 120px;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      background-color: #344c31;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+    }
+    & h4 {
+      font-family: "Livvic";
       font-weight: 600;
       font-size: 24px;
     }
-    & p{
+    & p {
       font-size: 18px;
     }
-    &:first-child{
+    &:first-child {
       padding-bottom: 60px;
       border-bottom: 1px solid #ffffff20;
       margin-bottom: 60px;
     }
-    
+  }
+}
+.revies {
+  overflow: hidden;
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-family: "Livvic";
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+.revies-slider {
+  display: flex;
+  width: 600%;
+  animation: moveleft 5s infinite linear;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+.revies-items {
+  display: flex;
+}
+.review {
+  padding: 0 120px;
+  display: flex;
+  gap: 85px;
+  align-items: center;
+}
+.review-img {
+  min-width: 350px;
+  min-height: 350px;
+  max-width: 350px;
+  max-height: 350px;
+  background-color: #f7c35f;
+  border-radius: 50%;
+}
+
+@keyframes moveleft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
